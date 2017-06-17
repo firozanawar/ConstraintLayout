@@ -26,3 +26,12 @@ Ex: app:layout_constraintEnd_toEndOf="parent"  (parent to indicate the Constrain
 * Guideline:- 
 The guideline itself does not appear in the output; it is merely something used at drawing time to aid in drawing. uideline is part of our GUI builder as well, to allow you to visually place the Guideline and connect widgets to that Guideline.
 * A Guideline has an orientation, set via android:orientation.
+* To define a view's position in ConstraintLayout, you must add at least one horizontal and one vertical constraint for the view. Each constraint represents a connection or alignment to another view, the parent layout, or an invisible guideline.
+
+
+More About Constraintlayout:-
+* https://developer.android.com/training/constraint-layout/index.html
+* https://developer.android.com/reference/android/support/constraint/ConstraintLayout.html
+* https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0
+* https://medium.com/exploring-android/exploring-the-new-android-constraintlayout-eed37fe8d8f1
+* http://www.journaldev.com/13590/android-constraintlayout
